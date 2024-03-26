@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'apercu-pro';
+  src: url('../src/assets/fonts/ApercuPro-Regular.ttf') format('truetype');
+  /* Add other font formats if necessary */
+}
+
+body {
+  font-family: 'apercu-pro', sans-serif;
+}
+
+label {
+  padding: 0% !important;
+}
+
+input[type='checkbox'] {
+  background-color: #000 !important ;
+}
